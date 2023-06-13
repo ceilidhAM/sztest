@@ -55,19 +55,30 @@ nav {
     flex-direction: column;
 }
 
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
 h1 {
     font-size: 54px;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 
 h2 {
     font-size: 28px;
     font-weight: 500;
+    margin-bottom: 24px;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 24px;
 }
 
 .section__link--color {
@@ -96,6 +107,15 @@ MAIN
     padding: 20px 0 0 20px;
 }
 
+.what__er--gif {
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    align-items:center;
+}
+
 /*
 FOOTER
 */
@@ -111,6 +131,7 @@ footer {
 
 .footer__nav--link {
     display: flex;
+    align-content: center;
 }
 
 .footer__nav--links {
